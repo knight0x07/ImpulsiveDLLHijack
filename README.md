@@ -15,8 +15,9 @@ i. Discovering -
 
 ii. Exploiting -
 	Process:
-	[+] Parse Potentially Vulnerable DLL Hijackable paths.
-	[+] Loop through all the potentially vulnerable paths by performing.
+	[+] Parse Potentially Vulnerable DLL Hijackable paths
+	[+] Loop through all the potentially vulnerable paths by performing
+
 
 # 1. Prerequisites:
 

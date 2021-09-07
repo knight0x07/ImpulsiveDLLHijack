@@ -3,7 +3,7 @@ A C# based tool which automates the process of discovering and exploiting DLL Hi
 
 # Methodological Approach:
 
-	The tool basically acts on automating following procedures required for DLL Hijacks:
+	The tool basically acts on automating following procedures required for DLL Hijacking:
 
 	i. Discovering - Finding Potentially Vulnerable DLL Hijackable paths
 	ii. Exploiting - Confirming whether the Malicious DLL was been loaded from the Hijacked path leading to a confirmation of 100% exploitable DLL Hijack!
@@ -16,7 +16,7 @@ A C# based tool which automates the process of discovering and exploiting DLL Hi
 	ii. Exploiting -
 		Process:
 		[+] Parse Potentially Vulnerable DLL Hijackable paths
-		[+] Loop through all the potentially vulnerable paths by performing
+		[+] Loop through all the paths by performing
 
 
 # 1. Prerequisites:

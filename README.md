@@ -1,9 +1,22 @@
 # ImpulsiveDLLHijack
 A C# based tool which automates the process of discovering and exploiting DLL Hijacks in target binaries. The DLL Hijacked paths provided can later be weaponized during RedTeamOps to evade EDR's.
 
-# Methodological approach
+# Methodological Approach:
 
-[+] sdasd
+The tool basically acts on automating following procedures required for DLL Hijacks:
+
+i. Discovering - Finding Potentially Vulnerable DLL Hijackable paths
+ii. Exploiting - Confirming whether the Malicious DLL was been loaded from the Hijacked path leading to a confirmation of 100% exploitable DLL Hijack!
+
+i. Discovering -
+	Process:
+	[+] Provide Target binary path to ImpulsiveDLLHiack
+	[+] Automation of ProcMon along with the execution of Target binary to find Potentially Vulnerable DLL Hijackable paths.
+
+ii. Exploiting -
+	Process:
+	[+] Parse Potentially Vulnerable DLL Hijackable paths
+	[+] Loop through all the potentially vulnerable paths by performing
 
 # 1. Prerequisites:
 

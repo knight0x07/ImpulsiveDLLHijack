@@ -1,6 +1,10 @@
 # ImpulsiveDLLHijack
 A C# based tool which completely automates the process of discovering and exploiting DLL Hijacks in target binaries. The DLL Hijacked paths provided can later be weaponized during RedTeamOps to evade EDR's.
 
+# Approach
+
+1.
+
 # 1. Prerequisites:
 
 	[i] Procmon.exe  -> https://docs.microsoft.com/en-us/sysinternals/downloads/procmon

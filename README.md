@@ -31,11 +31,14 @@ The tool basically acts on automating following steps performed for DLL Hijackin
 
 - Once the DLL Hijacking process is completed for every Potentially Vulnerable DLL Hijack path we get the final output on the console as well as in a text file (C:\DLLLogs\output_logs.txt) in the following format:
 
-	- <DLLHijack_path> --> DLL Hijack Successful | **if the Hijack was successful**
-	- <DLLHijack_path> --> DLL Hijack Unuccessful | **if the Hijack was unsuccessful**
-	- <DLLHijack_path> --> DLL Hijack Successful [Entry Point Not Found - Manual Analysis Required] | **if the Entry point was not found but can be successful after manual analysis**
-	- <DLLHijack_path> --> DLL Hijack Successful [Entry Point Not Found] | **if the hijack was successful even after the entry point was not found**
-	- <DLLHijack_path> --> Copy: Access to Path is Denied | **Access denied**
+	- <DLLHijack_path> --> DLL Hijack Successful (**if the Hijack was successful**)
+	- <DLLHijack_path> --> DLL Hijack Unuccessful (**if the Hijack was unsuccessful**)
+	- <DLLHijack_path> --> DLL Hijack Successful [Entry Point Not Found - Manual Analysis Required] (**if the Entry point was not found but can be successful after manual analysis**)
+	- <DLLHijack_path> --> DLL Hijack Successful [Entry Point Not Found] (**if the hijack was successful even after the entry point was not found**)
+	- <DLLHijack_path> --> Copy: Access to Path is Denied (**Access denied**)
+
+**These Confirmed DLL Hijackable paths can later be weaponized during a Red Team Engagement to load a Malicious DLL Implant via a legitimate executable (such as OneDrive,Firefox,MSEdge,"Bring your own LOLBINs" etc.) and bypass State of the art EDR's as most of them fail to detect DLL Hijacking as assessed by George Karantzas and Constantinos Patsakis as mentioned in there research paper: https://arxiv.org/abs/2108.10422
+
 
 		
 # 2. Prerequisites:
@@ -54,4 +57,4 @@ The tool basically acts on automating following steps performed for DLL Hijackin
 
 ![usage](https://user-images.githubusercontent.com/60843949/132341238-c6e0cad4-dfc1-4d8e-a011-73df17b652d6.PNG)
 
-# 4. Examples
+# 4. Examples:

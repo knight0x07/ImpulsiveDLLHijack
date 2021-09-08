@@ -55,20 +55,20 @@ The tool basically acts on automating following stages performed for DLL Hijacki
 
 - **Build and Setup Information:**
 
-	-ImpulsiveDLLHijack
+	- **ImpulsiveDLLHijack**
 
 		- Clone the repository in Visual Studio
 		- Once project is loaded in Visual Studio go to "Project" --> "Manage NuGet packages"  --> Browse for packages and install "PeNet" -> https://www.nuget.org/packages/PeNet/
 		- Build the project!
 		- The ImpulsiveDLLHijack.exe will be inside the bin directory.
 
-	- And for Confirmatory DLL's:
+	- **And for Confirmatory DLL's:**
 
 		- Clone the repository in Visual Studio
 		- Build the project with x86 and x64
 		- Rename x86 release as maldll32.dll and x64 release as maldll64.dll
 
-	- Setup: Copy the Confirmatory DLL's (maldll32 & maldll64) in the ImpulsiveDLLHijack.exe directory & then execute ImpulsiveDLLHijack.exe :)
+	- **Setup:** Copy the Confirmatory DLL's (maldll32 & maldll64) in the ImpulsiveDLLHijack.exe directory & then execute ImpulsiveDLLHijack.exe :))
 
 # 3. Usage:
 

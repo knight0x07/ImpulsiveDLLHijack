@@ -1,6 +1,6 @@
 # ImpulsiveDLLHijack
 
-A C# based tool which automates the process of discovering and exploiting DLL Hijacks in target binaries. The DLL Hijacked paths discovered can later be weaponized during RedTeam Operartions to evade EDR's.
+A C# based tool which automates the process of discovering and exploiting DLL Hijacks in target binaries. The Hijacked paths discovered can later be weaponized during RedTeam Operartions to evade EDR's.
 
 # 1. Methodological Approach :
 

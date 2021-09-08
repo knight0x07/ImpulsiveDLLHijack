@@ -85,10 +85,6 @@ The tool basically acts on automating following stages performed for DLL Hijacki
 
 - Stage: Final Results and Logs
 
-	- Console output:
-
-	![finaloutput](https://user-images.githubusercontent.com/60843949/132495370-5a31f7f3-e184-4cbd-bcf6-31b65cd6e264.PNG)
-
 	- C:\DLLLogs\output_logs.txt:
 
 	![output_logs](https://user-images.githubusercontent.com/60843949/132496859-808bb809-9230-4aee-afef-fe71ef03e8b5.PNG)

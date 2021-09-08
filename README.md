@@ -107,7 +107,7 @@ The tool basically acts on automating following stages performed for DLL Hijacki
 	![output_logs](https://user-images.githubusercontent.com/60843949/132496859-808bb809-9230-4aee-afef-fe71ef03e8b5.PNG)
 
 
-**Thankyou! Feedback would be greatly appreciated!**
+**Thankyou, Feedback would be greatly appreciated!** - knight!
 
 
 

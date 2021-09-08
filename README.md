@@ -4,17 +4,17 @@ A C# based tool which automates the process of discovering and exploiting DLL Hi
 
 # 1. Methodological Approach :
 
-The tool basically acts on automating following steps performed for DLL Hijacking:
+The tool basically acts on automating following stages performed for DLL Hijacking:
 
-- **Discovering** - Finding Potentially Vulnerable DLL Hijack paths
-- **Exploiting** - Confirming whether the Confirmatory DLL was been loaded from the Hijacked path leading to a confirmation of 100% exploitable DLL Hijack!
+- **Discovery** - Finding Potentially Vulnerable DLL Hijack paths
+- **Exploitation** - Confirming whether the Confirmatory DLL was been loaded from the Hijacked path leading to a confirmation of 100% exploitable DLL Hijack!
 
-**Discovering Methodology :**
+**Discovery Methodology :**
 
 - Provide Target binary path to ImpulsiveDLLHijack.exe
 - Automation of ProcMon along with the execution of Target binary to find Potentially Vulnerable DLL Hijackable paths.
 
-**Exploiting Methodology :**
+**Exploitation Methodology :**
 
 - Parse Potentially Vulnerable DLL Hijack paths from CSV generated automatically via ProcMon.
 - Copy the Confirmatory DLL (as per the PE architecture) to the hijack paths one by one and execute the Target Binary for predefined time period simultaneously.
@@ -58,3 +58,47 @@ The tool basically acts on automating following steps performed for DLL Hijackin
 ![usage](https://user-images.githubusercontent.com/60843949/132341238-c6e0cad4-dfc1-4d8e-a011-73df17b652d6.PNG)
 
 # 4. Examples:
+
+- Target Executable: OneDrive.exe
+
+- Stage: Discovery
+
+![first](https://user-images.githubusercontent.com/60843949/132492019-6dbb30aa-658f-4642-b9bd-69036d2d081a.PNG)
+
+- Stage: Exploitation
+
+	- Successful DLL Hijacks:
+
+	![success_one](https://user-images.githubusercontent.com/60843949/132493144-78072724-c2c0-4390-b761-7bfb9abfcb5b.PNG)
+
+	- Unsuccessful DLL Hijacks:
+
+	![unsuccessful](https://user-images.githubusercontent.com/60843949/132493860-d9df5fff-6cbc-4785-88a2-92d27cf128e2.PNG)
+
+	- DLL is not loaded as the entry point is not identical! Manual Analysis might make it a successful DLL Hijack :)
+
+	![entrypoint_not_found](https://user-images.githubusercontent.com/60843949/132494965-9d3b302b-360c-48b1-b2a4-ec950fddd893.PNG)
+
+	- DLL Hijack successful even after unidentical entry point!
+
+	![entrypoint_not_found](https://user-images.githubusercontent.com/60843949/132494965-9d3b302b-360c-48b1-b2a4-ec950fddd893.PNG)
+
+- Stage: Final Results and Logs
+
+	- Console output:
+
+	![finaloutput](https://user-images.githubusercontent.com/60843949/132495370-5a31f7f3-e184-4cbd-bcf6-31b65cd6e264.PNG)
+
+	- C:\DLLLogs\output_logs.txt:
+
+	![output_logs](https://user-images.githubusercontent.com/60843949/132496859-808bb809-9230-4aee-afef-fe71ef03e8b5.PNG)
+
+
+
+
+
+
+
+	
+
+

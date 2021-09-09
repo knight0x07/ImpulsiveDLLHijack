@@ -102,6 +102,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
         WriteLog();
+		WinExec("calc", SW_NORMAL);
         break;
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:

@@ -51,7 +51,7 @@ namespace ImpulsiveDLLHijack
             ProcessStartInfo proc = new ProcessStartInfo();
             proc.CreateNoWindow = true;
             proc.FileName = "Procmon.exe";
-            proc.Arguments = "/Minimized /AcceptEula /quiet /LoadConfig " + currentdirectory + "\\config.pmc /backingfile " + currentdirectory + "\\logs.pml";
+            proc.Arguments = " /Minimized /AcceptEula /quiet /LoadConfig " + currentdirectory + "\\config.pmc /backingfile " + currentdirectory + "\\logs.pml";
             procmon1.StartInfo = proc;
             procmon1.Start();
 

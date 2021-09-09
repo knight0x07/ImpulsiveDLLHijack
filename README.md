@@ -98,7 +98,8 @@ The tool basically acts on automating following stages performed for DLL Hijacki
 
 	- DLL Hijack successful even after unidentical entry point!
 
-	![entrypoint_not_found](https://user-images.githubusercontent.com/60843949/132494965-9d3b302b-360c-48b1-b2a4-ec950fddd893.PNG)
+	![entry_pointnot found - but dll is executed](https://user-images.githubusercontent.com/60843949/132639672-b14aa124-2927-44b0-90b9-7e1f9497afd5.PNG)
+
 
 - Stage: Final Results and Logs
 
